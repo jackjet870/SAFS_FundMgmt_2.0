@@ -1,5 +1,6 @@
 body {
-  background-color: #3B3831; }
+  background-color: #3B3831 !important;
+  font-family: "Microsoft YaHei" !important; }
 
 .header {
   width: 100%;
@@ -13,15 +14,17 @@ body {
       float: left;
       margin-top: 20px; }
     .header .header-nav .header-nav-bar {
-      list-style: none; }
+      margin-top: 30px;
+      list-style: none;
+      float: right; }
       .header .header-nav .header-nav-bar li {
         float: left;
         margin-left: 20px;
-        color: #3B3831;
+        color: #B7AFA5;
         font-size: 16px; }
 
 .content {
-  width: 80%;
+  width: 90%;
   height: 800px;
   margin: 0 auto;
   background-color: #3B3831 0.2; }
