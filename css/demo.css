@@ -1,0 +1,34 @@
+body {
+  background-color: #514C44; }
+
+.header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 4px rgba(0, 0, 0, 0.2) solid;
+  background-image: url("../img/low-poly.png"); }
+  .header .header-nav {
+    width: 80%;
+    margin: 0 auto; }
+    .header .header-nav .header-logo {
+      display: inline-block;
+      float: left;
+      margin-top: 20px; }
+    .header .header-nav .header-nav-bar {
+      list-style: none; }
+      .header .header-nav .header-nav-bar li {
+        float: left;
+        margin-left: 20px;
+        color: #3B3831;
+        font-size: 16px; }
+
+.content {
+  width: 100%;
+  height: 800px;
+  background-color: #3B3831; }
+  .content .content-inner {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #47423C; }
+
+/*# sourceMappingURL=demo.css.map */
