@@ -13,7 +13,7 @@ body{
 	width: 100%;
 	height: 80px;
 	border-bottom: 4px rgba(0, 0, 0,.2) solid; 
-	background-color: $backColor ! important;	
+	background-color: $backColor;	
 	.header-nav{
 		width: 80%;
 		margin: 0 auto;
@@ -38,18 +38,31 @@ body{
 
 .content{
 	width: 90%;
-	height: 800px;
 	margin: 20px auto;
     .content-inner{
     	width: 100%;
-    	height: 600px;
+    	height: 700px;
     	margin: 0 auto;
     	background-color: rgba(#000, 0.5);
     	border: 1px $panelColor solid;
-    	border-radius: 10px;
     	.content-left{
 
 	    }
     }
     
+}
+
+.footer{
+	width: 100%;
+	height: 140px;
+	background-color: $backColor ! important;
+	padding-top: 40px;
+	.footer-inner{
+		width: 80%;
+		margin: 0 auto;
+		p{
+			text-align: center;
+			color: $grayfontColor;
+		}
+	}
 }
