@@ -6,13 +6,14 @@ $bottonColor: #5C554D;
 $grayfontColor: #B7AFA5;
 
 body{
-	background-color: $backColor ! important;
+	background-image: url("../img/low-poly.png");
 	font-family: "Microsoft YaHei" ! important;
 }
 .header{
 	width: 100%;
 	height: 80px;
-	border-bottom: 4px rgba(0, 0, 0,.2) solid; 	
+	border-bottom: 4px rgba(0, 0, 0,.2) solid; 
+	background-color: $backColor ! important;	
 	.header-nav{
 		width: 80%;
 		margin: 0 auto;
@@ -38,13 +39,14 @@ body{
 .content{
 	width: 90%;
 	height: 800px;
-	margin: 0 auto;
-    background-color: $backColor 0.2;
+	margin: 20px auto;
     .content-inner{
-    	width: 80%;
+    	width: 100%;
     	height: 600px;
     	margin: 0 auto;
-    	background-color: $panelColor;
+    	background-color: rgba(#000, 0.5);
+    	border: 1px $panelColor solid;
+    	border-radius: 10px;
     	.content-left{
 
 	    }
