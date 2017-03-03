@@ -1,11 +1,10 @@
 body {
-  background-color: #514C44; }
+  background-color: #3B3831; }
 
 .header {
   width: 100%;
   height: 80px;
-  border-bottom: 4px rgba(0, 0, 0, 0.2) solid;
-  background-image: url("../img/low-poly.png"); }
+  border-bottom: 4px rgba(0, 0, 0, 0.2) solid; }
   .header .header-nav {
     width: 80%;
     margin: 0 auto; }
@@ -22,9 +21,10 @@ body {
         font-size: 16px; }
 
 .content {
-  width: 100%;
+  width: 80%;
   height: 800px;
-  background-color: #3B3831; }
+  margin: 0 auto;
+  background-color: #3B3831 0.2; }
   .content .content-inner {
     width: 80%;
     height: 600px;
